@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CDNvideo HLS Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="player-container">
+      <video id="video" width="640" height="360" controls></video>
+      <div class="stats">
+        <p>Текущая позиция: <span id="currentTime">0</span> сек</p>
+        <p>Размер буфера: <span id="bufferSize">0</span> сек</p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
